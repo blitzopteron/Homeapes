@@ -17,7 +17,17 @@ header h1 {
     margin: 0; padding: 10px 10px;
     font-size: 25px;
     font-family: 'Lobster', cursive;
+
 }
+
+@media screen and (max-width: 300px) {
+    nav { display: none; }
+    article {
+        width: 100%; 
+        height: 100px;
+    }
+}
+
 nav {
     background-color: #EAE2B8;
     padding: 10px 10px;
