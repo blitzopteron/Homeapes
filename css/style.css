@@ -27,20 +27,27 @@ header h1 {
         height: 100px;
     }
 }
-
+p{
+    color:white;
+    display: inline-block;
+    margin: 0; padding: 0;
+}
 nav {
-    background-color: #EAE2B8;
+    background-color: black;
     padding: 10px 10px;
-    width: 100%
+    width: 80%
+    
 }
 nav ul {
     list-style-type: none;
     display: inline-block;
     margin: 0; padding: 0;
+    text-align: right;
 }
 nav ul li {
     display: inline-block;
     margin: 0 6px;
+    text-align: left;
 }
 /* Secciones centrales */
 section {
