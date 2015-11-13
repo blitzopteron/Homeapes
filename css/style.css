@@ -1,7 +1,11 @@
 /* Reglas generales */
 * { font-family: sans-serif; }
 body { margin: 0 }
-a { text-decoration: none; }
+
+a {
+    text-decoration: none; 
+    color:white;
+}
 a:hover { text-decoration: underline; }
 
 
@@ -17,32 +21,29 @@ header h1 {
     margin: 0; padding: 10px 10px;
     font-size: 25px;
     font-family: 'Lobster', cursive;
+    display: inline-block;
 
 }
 
-@media screen and (max-width: 300px) {
+/*@media screen and (max-width: 300px) {
     nav { display: none; }
     article {
         width: 100%; 
         height: 100px;
     }
 }
+}*/
 
-
-p{
-    color:white;
-    display: inline-block;
-    margin: 0; padding: 0;
-}
 nav {
     background-color: black;
     padding: 10px 10px;
-    width: 80%
+    width: 80%;
+    display:inline-block;
     
 }
 nav ul {
     list-style-type: none;
-    display: inline-block;
+    
     margin: 0; padding: 0;
     text-align: right;
 }
